@@ -2,23 +2,23 @@
 
 Interactive WebGL foil effects for React. Sixteen patterns, custom colours, neutral pointer highlights, independent mask sizing, and live settings updates. No CSS file, Shopify dependency, animation library, or WebGL framework is required.
 
-This project is prepared as standalone source. It has not been published to npm and has no Git repository initialized. The package name is a working name; registry availability has not been checked. No open-source licence has been granted yet (`UNLICENSED`); choose your licence before public distribution.
+## Install
 
-## Try it
+```sh
+npm install holographic-react
+```
 
-From this directory:
+## Licence
+
+MIT. Copyright (c) 2026 harrywebb21. See [LICENSE](./LICENSE) for the full terms.
+
+## Develop locally
 
 ```sh
 npm install
 npm run build
 npm test
 npm pack
-```
-
-`npm pack` creates `holographic-react-0.1.0.tgz`. Install that archive into another React project:
-
-```sh
-npm install /path/to/holographic-react-0.1.0.tgz
 ```
 
 React is a peer dependency and stays out of the bundle. React 18 and 19 are supported by the peer range; browser verification currently uses React 19. The build requires Node 20.19+ (or a supported newer version).

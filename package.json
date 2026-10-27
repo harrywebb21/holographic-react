@@ -1,14 +1,15 @@
 {
   "name": "holographic-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interactive holographic foil effects for React, with a standalone WebGL renderer.",
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "sideEffects": false,
   "files": [
     "dist",
     "src",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "exports": {
     ".": {
@@ -38,5 +39,9 @@
   },
   "engines": {
     "node": ">=20.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrywebb21/holographic-react.git"
   }
 }
