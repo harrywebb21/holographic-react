@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+@layer base {
+  :root { color-scheme: dark; }
+  html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+  body { margin: 0; background: #0c0d10; color: #f1f0ed; -webkit-font-smoothing: antialiased; }
+  button, a, input, select { -webkit-tap-highlight-color: transparent; }
+  button:not(:disabled), select { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+  ::selection { background: #cef5b9; color: #111; }
+  :focus-visible { outline: 2px solid #d1f7bc; outline-offset: 5px; }
+  input[type="range"] { accent-color: #d1f7bc; }
+  summary { cursor: pointer; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
